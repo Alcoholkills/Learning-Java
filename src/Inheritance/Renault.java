@@ -17,10 +17,11 @@ public class Renault extends Voiture {
         clio.tutut();
 //        Ici, c'est bien le tutut de Renalt qui est utilise
 //        Puisque la methode est override en runtime
+//        Pour du code propre, il faudrait decommenter le @Override
 
         Voiture voiture = new Renault();
         voiture.tutut();
-//        Meme chose ici
+//        Meme chose ici ; c'est bien un objet Renault qui est utilise
 
     }
 }
